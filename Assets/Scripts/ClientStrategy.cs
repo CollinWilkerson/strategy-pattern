@@ -27,6 +27,7 @@ namespace Chapter.Strategy {
                 _drone.AddComponent<BoppingManeuver>());
             _components.Add(
                 _drone.AddComponent<FallbackManeuver>());
+            _components.Add(_drone.AddComponent<RandomManeuver>());
             
             int index = Random.Range(0, _components.Count);
             
