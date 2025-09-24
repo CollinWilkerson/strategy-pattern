@@ -13,15 +13,11 @@ namespace Chapter.Strategy {
             float time;
             bool isReverse = false;
             float speed = drone.speed;
-            Vector3 startPosition = drone.transform.position;
-            Vector3 endPosition = Random.insideUnitSphere * drone.weavingDistance;
-            endPosition.x = drone.weavingDistance;
 
             while (true) {
                 time = 0;
                 Vector3 start = drone.transform.position;
-                Vector3 end = 
-                    (isReverse) ? startPosition : endPosition;
+                Vector3 end = Random.insideUnitSphere * drone.weavingDistance;
 
                 while (time < speed) {
                     drone.transform.position = 
@@ -32,7 +28,8 @@ namespace Chapter.Strategy {
                     yield return null;
                 }
 
-                yield return new WaitForSeconds(1);
+                //time to freeze at the end point
+                yield return new WaitForSeconds(0.5f);
                 isReverse = !isReverse;
             }
         }

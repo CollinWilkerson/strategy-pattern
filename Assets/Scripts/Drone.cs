@@ -10,7 +10,7 @@ namespace Chapter.Strategy {
         private float _rayDistance = 15.0f;
 
         // Movement parameters
-        public float speed = 1.0f;
+        public float speed = 0.25f;
         public float maxHeight = 5.0f;
         public float weavingDistance = 1.5f;
         public float fallbackDistance = 20.0f;
