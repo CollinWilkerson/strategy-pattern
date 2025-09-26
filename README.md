@@ -1,3 +1,3 @@
 # Strategy, visitor, decorator
 
-Play at: 
+Play at: https://collinwilkerson.github.io/strategy-pattern/
