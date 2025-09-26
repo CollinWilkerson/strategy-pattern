@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ca73e4c694a4f439cb2ad32550518a, type: 3}
   m_Name: Overloader
   m_EditorClassIdentifier: 
-  rate: 0
-  range: 0
-  strength: 0
-  cooldown: 0
-  attachmentName: 
+  rate: 50
+  range: 50
+  strength: 100
+  cooldown: -5
+  attachmentName: Overloader
   attachmentPrefab: {fileID: 0}
-  attachmentDescription: 
+  attachmentDescription: Overload all bike systems to achive maximum weapon power

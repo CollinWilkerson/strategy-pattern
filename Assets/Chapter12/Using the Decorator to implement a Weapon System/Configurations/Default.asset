@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa9f1e12074e838469f015f20d208d74, type: 3}
   m_Name: Default
   m_EditorClassIdentifier: 
-  rate: 10
-  range: 15
-  strength: 20
-  cooldown: 1.5
+  rate: 5
+  range: 10
+  strength: 10
+  cooldown: 2
   weaponName: Default
   weaponPrefab: {fileID: 0}
   weaponDescription: The default weapon
